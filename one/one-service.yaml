@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: one-service
+  namespace: istio-example
+  labels:
+    app: one
+spec:
+  selector:
+    app: one
+  ports:
+    - port: 8001
+      name: http

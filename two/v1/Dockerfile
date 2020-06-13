@@ -1,6 +1,6 @@
 FROM alpine
 
-COPY two-v1 /usr/bin
+COPY two-v1 /usr/bin/two-v1
 
 RUN chmod +x /usr/bin/two-v1
 
