@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sh ./one/v1/build.sh
-sh ./one/v2/build.sh
-sh ./two/v1/build.sh
-sh ./two/v2/build.sh
+cd one/v1 && sh build.sh
+cd ../../one/v2 && sh build.sh
+cd ../../two/v1 && sh build.sh
+cd ../../two/v2 && sh build.sh
