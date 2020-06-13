@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: one-v1
-          image: registry.prod.bbdops.com/common/one-v1:v0.0.2
+          image: registry.prod.bbdops.com/common/one-v1:v0.0.3
           ports:
             - containerPort: 8001
 
@@ -48,6 +48,6 @@ spec:
     spec:
       containers:
         - name: one-v2
-          image: registry.prod.bbdops.com/common/one-v2:v0.0.2
+          image: registry.prod.bbdops.com/common/one-v2:v0.0.3
           ports:
             - containerPort: 8001

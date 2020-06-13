@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: two-v1
-          image: registry.prod.bbdops.com/common/two-v1:v0.0.2
+          image: registry.prod.bbdops.com/common/two-v1:v0.0.3
           ports:
             - containerPort: 8002
 
@@ -48,6 +48,6 @@ spec:
     spec:
       containers:
         - name: two-v2
-          image: registry.prod.bbdops.com/common/two-v2:v0.0.2
+          image: registry.prod.bbdops.com/common/two-v2:v0.0.3
           ports:
             - containerPort: 8002
